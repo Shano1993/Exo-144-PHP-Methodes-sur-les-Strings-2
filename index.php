@@ -21,6 +21,11 @@
 
 // Exercice 4
     $chaine = "La chaîne de mon choix";
+    $mots = explode(" ", $chaine);
+    foreach ($mots as $mot) {
+        echo $mot . "<br><br>";
+    }
+
 
 // Exercice 5
     $array = ["Pomme", "Poire", "Abricot", "Cerise", "Tomate"];
